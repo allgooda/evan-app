@@ -1,0 +1,14 @@
+<div class="jumbotron text-center">
+    <h1>Cases</h1>
+
+    <button ng-click='create()'>Make Case</button>
+
+    <div ng-repeat="case in cases">
+      
+      <div>
+        {{case.name}}
+        <br>
+        {{case.image_url}}
+      </div>
+    </div>
+</div>
